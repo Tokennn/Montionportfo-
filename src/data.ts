@@ -186,7 +186,7 @@ export const NOTES: Note[] = [
     title: { fr: 'En ce moment', en: 'Right now' },
     date: { fr: '16 oct. 2026', en: 'Oct 16, 2026' },
     body: {
-      fr: '• Ce bureau : un portfolio façon macOS, fenêtres et dock compris.\n• NotchPack : le site de présentation, déjà en ligne.\n\nToujours ouvert aux missions freelance ou en équipe.',
+      fr: '• Ce bureau : un portfolio façon macOS, fenêtres et dock compris.\n• NotchPack : Widget MacOS, déjà en ligne.\n\nToujours ouvert aux missions freelance ou en équipe.',
       en: '• This desktop: a macOS-style portfolio, windows and dock included.\n• NotchPack: the showcase site, already live.\n\nAlways open to freelance or team projects.',
     },
     status: { fr: 'Disponible', en: 'Available' },
