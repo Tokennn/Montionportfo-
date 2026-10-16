@@ -32,8 +32,9 @@ const THEMES = {
     // Même dégradé que le fond de la photo (plus foncé en bas) pour que les bords se raccordent.
     pageBg: 'linear-gradient(180deg, rgb(203, 174, 145) 0%, rgb(190, 161, 124) 100%)',
     gradientOpacity: 0.08,
-    cardTitle: 'rgb(52, 40, 30)',
-    cardTitleShadow: 'none',
+    // Titres des projets en blanc (légère ombre pour rester lisibles sur le beige).
+    cardTitle: 'rgba(255, 255, 255, 0.95)',
+    cardTitleShadow: '0 1px 6px rgba(52, 40, 30, 0.35)',
     cardHoverBorder: 'rgba(52, 40, 30, 0.12)',
     cardHoverBg: 'rgba(255, 255, 255, 0.3)',
     thumbBorder: 'rgba(52, 40, 30, 0.12)',
