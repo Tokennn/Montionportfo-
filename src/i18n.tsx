@@ -36,6 +36,10 @@ const UI = {
   selectNote: { fr: 'Sélectionne une note.', en: 'Select a note.' },
   hostedOn: { fr: 'Hébergé via', en: 'Hosted on' },
   language: { fr: 'Langue', en: 'Language' },
+  nowPlaying: { fr: 'Lecture en cours', en: 'Now playing' },
+  play: { fr: 'Lecture', en: 'Play' },
+  pause: { fr: 'Pause', en: 'Pause' },
+  progress: { fr: 'Progression du morceau', en: 'Track progress' },
 } satisfies Record<string, L>
 
 type UIKey = keyof typeof UI

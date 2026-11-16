@@ -11,6 +11,7 @@ import { useIsMobile, useReducedMotion } from './hooks/useMediaQuery'
 import { useLang } from './i18n'
 import { BACKGROUND_MODE, COFFEE_IMAGE, THEME } from './theme'
 import { CoffeeBackground } from './components/CoffeeBackground'
+import { NowPlaying } from './components/NowPlaying'
 
 type WindowKind = 'project' | 'about' | 'notes'
 
@@ -287,7 +288,10 @@ export default function App() {
         </span>
       </footer>
 
-      {/* 7. Langue (en haut à droite ; centrée en haut sur mobile) */}
+      {/* 7. Barre son (haut centre) + onde du morceau (bas droite) */}
+      <NowPlaying isMobile={isMobile} reducedMotion={reducedMotion} />
+
+      {/* 8. Langue (en haut à droite ; centrée en haut sur mobile) */}
       <div
         role="group"
         aria-label={t('language')}
