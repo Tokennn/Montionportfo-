@@ -1,6 +1,6 @@
 # Motionportfo — portfolio de Quentin Contreau
 
-Hero plein écran façon bureau macOS : 5 projets (repris de quentincontreau.com) en cartes déplaçables, un dock, et des fenêtres (projet, About, Notes).
+Hero plein écran façon bureau macOS : 6 projets en cartes déplaçables, un dock, et des fenêtres (projet, About, Notes).
 
 Stack : React 19 + Vite 8 + TypeScript. Tailwind est installé (plugin Vite) mais tous les styles sont inline dans le JSX.
 
