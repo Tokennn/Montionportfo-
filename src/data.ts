@@ -121,7 +121,7 @@ export const ABOUT = {
   role: { fr: 'Développeur créatif', en: 'Creative developer' },
   location: 'Lyon, France',
   status: { fr: 'Disponible', en: 'Available' },
-  email: 'quentin@ynov.com',
+  email: 'quentin.contreau@outlook.fr',
   intro: {
     fr: 'Développeur créatif basé en France, passionné par l’art numérique, le creative coding et l’animation 3D. Je recherche en continu des missions freelance ou en équipe pour concevoir des expériences digitales soignées.',
     en: 'Creative developer based in France, passionate about digital art, creative coding, and 3D animation. Always looking for exciting freelance or team opportunities to build beautiful digital experiences.',
